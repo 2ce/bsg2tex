@@ -38,6 +38,7 @@ do
                 pdflatex "${TEXPATH}"
         done;
         rm "${FILE/%.tex/-${MODE}.aux.sec}"
+        rm "${FILE/%.tex/-${MODE}.aux}"
         rm "${FILE/%.tex/-${MODE}.log}"
         rm "${FILE/%.tex/-${MODE}.tex}"
         rm "${FILE/%.tex/-${MODE}.out}"
