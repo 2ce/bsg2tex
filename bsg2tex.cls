@@ -40,7 +40,7 @@
 \ProcessOptions\relax
 \LoadClass[11pt,a4paper]{article}
 
-\usepackage[latin1]{inputenc}
+\usepackage[utf8x]{inputenc}
 \usepackage[ngerman]{babel}
 \setlength{\unitlength}{1mm}
 
